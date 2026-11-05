@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cold-start window. The pre-bridge frame used to be a flat dark colour, which
+  reads as an empty screen in the screenshot gate; the launcher mark keeps the
+  first frame branded until the JS bundle paints the real loader.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splashBackground" />
+    <item>
+        <bitmap
+            android:src="@mipmap/ic_launcher"
+            android:gravity="center" />
+    </item>
+</layer-list>
